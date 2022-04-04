@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+    <h3 class="pagescrape-title">Web Scrape History</h3>
+    <table class="table history-table">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Site Link</th>
+                <th>Date-time</th>
+                <th></th>
+            </tr>
+        </thead>
+    <tbody>
+        {% for record in records %}
+            <tr>
+                <td>{{ record.count }}</td>
+                <form action="/pagescraped" method="post">
+                    <td>{{ record.sitelink }}</p></td>
+                    <td>{{ record.datetime }}</td>
+                    <td><button class="btn btn-primary" type="submit">Go</button></td>
+                    <input class="invisible-input" id="htmladdress" name="htmladdress" value={{record.sitelink}}>
+                </form>
+            </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+
+
+
+{% endblock %}

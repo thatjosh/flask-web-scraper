@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <p>It looks like your history is empty.</p>
+    <form action="/pagescrape" method="post">
+        <a href="/pagescrape" class="btn btn-primary">Scrape some websites!</a>
+    </form>
+{% endblock %}

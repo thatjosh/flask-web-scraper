@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+
+    <div class="login-div">
+        <img class="login-image"src="/static/Error400.png" width="400" class="index-nav-image" alt="White Logo">
+        <h3 class="apology-title">ERROR 400</h3>
+        <p>Error Description: {{ message }}.</p>
+        <button class="btn btn-primary" onclick="history.back()">Go Back</button>
+    </div>
+
+{% endblock %}

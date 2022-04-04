@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Scraped Data
+{% endblock %}
+
+{% block main %}
+
+    <h3 class="pagescrape-title">Scraped Data</h3>
+    <div>
+        <div class="box">
+            <div class="pagescrape-button-container" align="left">
+                <button class="btn btn-primary pagescraped-button" id="btnCopy" type="button">Copy text</button>
+                <a class="btn btn-primary pagescraped-button" href="/static/webscrape.txt" download>Download as text file</a>
+                <form class= "pagescrape-form" action="/analysed" method="post">
+                    <button id=submit name=submit class="btn btn-primary pagescraped-button" type="submit">Analyse this!</button>
+                </form>
+            </div>
+            <div>
+                <p class="pagescraped-html-addreess">HTML Address: {{html_address}}</p>
+            </div>
+            <div>
+                {% for data in webscraped_data %}
+                    <p class="pagescraped-para">{{ data }}</p>
+                {% endfor %}
+            </div>
+            <p id="webscrapedData" style="display: None">
+                {% for data in webscraped_data %}
+                    {{ data }}
+                    {# Linebreak #}
+                {% endfor %}
+            </p>
+    </div>
+
+    <script type="text/javascript">
+    var $body = document.getElementsByTagName('body')[0];
+    var $btnCopy = document.getElementById('btnCopy');
+    var webscrapedData = document.getElementById('webscrapedData').innerHTML;
+
+    var copyToClipboard = function(webscrapedData) {
+        var $tempInput = document.createElement('INPUT');
+        $body.appendChild($tempInput);
+        $tempInput.setAttribute('value', webscrapedData)
+        $tempInput.select();
+        document.execCommand('copy');
+        $body.removeChild($tempInput);
+    }
+
+    $btnCopy.addEventListener('click', function(ev) {
+        copyToClipboard(webscrapedData);
+    });
+    </script>
+
+{% endblock %}

@@ -1,0 +1,151 @@
+A piece of compliance theatre that the behavioral ad industry has for years passed off as “a cross-industry best practice standard” — claiming the consent management platform allowed advertisers to keep tracking and surveilling European Internet users without having to worry about pesky EU privacy laws — has today been confirmed to breach the bloc’s rules.
+
+The decision puts a ticking time-bomb under the behavioral ad industry’s regional ops — with the IAB Europe having been given just two months to submit an action plan to its Belgian regulator explaining how exactly it will fix the mess it helped create.
+
+Polishing the turd in question looks very tricky give the regulatory sanction prohibits behavioral advertisers from using the IAB’s so-called “Transparency and Consent Framework” (TCF) to bypass user consent by claiming legitimate interest as a legal base to track and profile web users.
+
+Nor can they rely on the dark pattern of pre-ticked consents. And, well, if Europeans are actually asked to consent to ad stalking they are extremely likely to say no.
+
+The ad industry body has been given a hard deadline of six months for bringing the TCF into compliance with EU standards of data protection and privacy, after which a fine of €5,000 per day will be levied if the IAB fails to clean up its own processes — and really, by association, the wider practices the TCF leans into and encourages.
+
+The TCF is deployed on websites to justify user data being passed to a string of publisher ‘partners’ to process the information for real-time-bidding (RTB) programmatic ad auctions. So if one piece of this ‘value chain’ has been found not to be operating lawfully it does rather yank on the whole chain.
+
+The IAB, meanwhile, has been hit with a fine €250,000 due to the gravity of the violations.
+
+While the size of that fine may sound small — under the EU’s General Data Protection Regulation (GDPR) it could have faced a maximum penalty of €20M — the regional organization only booked less than €2.5M in revenue in 2020 and the sanctioning regulator notes it took “business volume” into account in deciding how much to sting it.
+
+There’s more than a fine too: The IAB has been ordered to delete any illegally gathered data.
+
+Although the lack of any controls on how RTB broadcasts and trades Internet users’ personal data means it’s essentially impossible for all this lawlessly gathered tracking intel to be purged by the IAB alone — which exists like a glossy cherry atop a massive layer cake of data brokers and exchanges; a cake of unknown ingredients. Which is essentially the problem.
+
+There’s a particular irony here in that the adtech industry has, in recent months, been campaigning against explicit limits on behavioral advertising being written into new EU laws by parliamentarians — as adtech lobby groups like the IAB have argued that the bloc’s current data protection rules are perfectly adequate to regulate their industry.
+
+So, er, that sound you can hear is the cheering of all the privacy campaigners who have spent literally years trying to get EU regulators to actually enforce the law against adtech.
+
+Finally — finally — enforcement is happening.
+
+BREAKING We won our case against @IABEurope! The Belgian @APD_GBA found IAB TCF system *incompatible* with GDPR principles confirming that a large part of online advertising is illegal. We’re analysing the 120+ pages decision. Special 🙏 to @johnnyryan, the main force behind this https://t.co/TjKRIpaOdZ
+
+— Karolina Iwańska (@ka_iwanska) February 2, 2022
+
+
+
+While the TCF being confirmed to breach the GDPR is definitely very big news it remains to be seen whether the adtech industry’s response will be to regroup with a fresh wheeze for cynically circumventing people’s privacy — instead of what’s actually needed: Full spectrum reform that meets both the letter and spirit of the law.
+
+Despite what the ad lobbyists like to claim, online advertising doesn’t have to be creepy in order to be targeted; other forms of targeted advertising that don’t require individual tracking and profiling are both available and profitable (e.g. contextual ads).
+
+Even Google is working on alternatives to individual-level targeting — even if its proposed alternatives aren’t as radical a “privacy” reform as its PR likes to suggest.
+
+Clearly, getting adtech to kick its lucrative addition to tracking is proving to be a work of years, plural. But in Europe the operational noose is tightening and the calls for reform are getting harder to ignore.
+
+Commenting on the breach finding, one of the original complainants against adtech’s systemic abuse of people’s privacy, Johnny Ryan, a former industry insider who’s now a senior fellow at the Irish Council for Civil Liberties, was upbeat — telling TechCrunch: “Today’s decision frees hundreds of millions of Europeans from nuisance and misleading consent requests. It should also protect them from illicit surveillance by tech firms.”
+
+The Belgian data protection authority (APD) today published its final decision (English translation here) on a long running complaint against the IAB Europe’s TCF — the aforementioned “best practice” “compliance” “standard” — finding, as expected (in fact since 2020), that the IAB’s flagship mechanism for collecting Internet users’ permission to processing their data for behavioral advertising does not do what’s claimed (i.e. “Transparency” and “Consent”) and is in fact operating unlawfully with a murky lack of information and faux (not legally valid) ‘consent’.
+
+No one should be surprised by this, of course. It is what a few actual regulators and plenty of experts have been saying for years.
+
+The list of breach findings by the APD is almost as long as the list of personal data points its investigation notes can be contained in a RTB “bid request”, as it concludes that the GDPR very clearly applies to this high velocity personal-data-trading system (aka: “RTB operations by means of bid requests inherently entail the processing of personal data”).
+
+The APD’s confirmed findings against the IAB and its TCF are the following breaches of the GDPR:
+
+▪ Articles 5.1.a and 6 (lawfulness of processing; fairness and transparency)
+▪ Articles 12, 13 and 14 (transparency)
+▪ Articles 24, 25, 5.1.f and 32 (security of processing; integrity of personal data; data protection by design and default)
+▪ Articles 30 (register of processing activities);
+▪ Article 35 (data impact assessment);
+▪ Article 37 (appointment of a data protection officer).
+
+Aka: ‘Siri, show me a system that’s wildly out of control‘.
+
+Breaking the findings out into a little more detail, the APD found the IAB wrongly claimed that it could rely on legitimate interest (LI) as a legal basis for processing people’s data under the TCF — a common adtech industry wheeze to try to scissor around the fact the vast majority of people don’t want to be tracked and profiled by online advertisers and deny consent if they are actually and fairly asked (ergo they don’t ask and/or just ignore a denial of consent by claiming they can override it anyway using LI).
+
+Thing is, relying on legitimate interests as a legal basis under EU law means you need to carry out an assessment that considers whether the processing is actually necessary — or whether another less intrusive method could be used to achieve the same result. Moreover, you must also perform an LI balancing test which considers whether you are protecting people’s rights and freedoms. And here the APD’s Inspection Service found the IAB Europe “fails to provide evidence that the interests, in particular the fundamental rights and freedoms, of data subjects were adequately considered in the process”.
+
+Moreover, any claim of consent obtained via the IAB’s TCF as a legal basis for tracking ads was also found not to be lawful under GDPR — as it is “currently not given in a sufficiently specific, informed and granular manner”. 
+
+So, er, another massive, massive fail.
+
+On transparency, the APD concluded there are a string of violations by the IAB — such as the way information is provided to users of the TCF not meeting the required standard of a “transparent, comprehensible and easily accessible manner”; users not being given “sufficient information about the categories of personal data collected about them”; nor being able to determine in advance the scope and consequences of the processing, as they should be able to if consents were being legally gathered.
+
+“The information given to users is too general to reflect the specific processing of each vendor, which also prevents the granularity — and therefore the validity — of the consent received for the processing carried out using the OpenRTB protocol,” the regulator goes on. “Data subjects are unable to determine the scope and consequences of the processing in advance, and therefore do not have sufficient control over the processing of their data to avoid being surprised later by further processing of their personal data.”
+
+The APD found the IAB Europe to be a joint data controller for processing related to the TCF — with all the associated legal responsibilities that entails — and in another major associated finding it says the organization does not “sufficiently monitor compliance with the rules it has developed with regard to participating organisations”.
+
+This is important because in recent months the IAB has been promoting an ‘audit’ program — which it calls its “vendor compliance program” — under which it claims it will be able to audit companies that use the TCF to ensure they are not breaching GDPR.
+
+However, as critics have quickly pointed out, this looks like an attempt to spin up fresh compliance theatre given that the RTB system lacks controls on data-sharing nor is it technically possible to know who exactly is getting people’s information (nor what on earth they might be doing with it) as bid requests are insecurely broadcast across the Internet at high speed and massive volume, countless times per day.
+
+The APD’s analysis suggests the regulator has a good grasp of such concerns as it notes that under the current TCF system “adtech vendors receive a consent signal without any technical or organisational measure to ensure that this consent signal is valid or that a vendor has actually received it (rather than generated it)”.
+
+“In the absence of systematic and automated monitoring systems of the participating CMPs and adtech vendors by the defendant [i.e. IAB], the integrity of the TC String [i.e. the choices users signalled/selected via the TCF] is not sufficiently ensured, since it is possible for the CMPs to falsify the signal in order to generate an euconsent-v2 cookie and thus reproduce a ‘false consent’ of the users for all purposes and for all types of partners,” it further explains, before adding. “[T]his hypothesis is also specifically foreseen in the terms and conditions of the TCF.
+
+“The Litigation Chamber therefore finds that IAB Europe, in its capacity of Managing Organisation, has designed and provides a consent management system, but does not take the necessary steps to ensure the validity, integrity and compliance of users’ preferences and consent.”
+
+A research study we reported on last month illustrated exactly this problem of user consent choices being totally ignored by the tracking industry. So this problem the regulator has identified as baked into the TCF, including via the IAB’s hands off approach, looks a lot more like a feature of an intentionally lax system than a theoretically exploitable vulnerability…
+
+Adtech vendors still tracking EU users who deny consent via IAB’s TCF, study suggests
+
+
+
+That’s not all, either.
+
+In a further finding, the APD says the TCF breaches the GDPR by failing to allow users to exercise their data subject rights (e.g. the right of access, the right to delete information etc).
+
+So that’s another very big deal. The adtech industry loves to talk big about “online choices” — but is evidently rather less fond of providing web users with meaningful controls so they can exercise their actual legal rights.
+
+Less big but quite funny: The regulator found the IAB failed to keep a register of processing operations — rejecting its claims otherwise by simply saying that it “cannot follow the defendant’s argument”. Ouch.
+
+(On that the industry body had sought to claim an exemption from having to do that as it’s a smaller organization. However the GDPR clearly states that such an exemption does not apply where the processing is likely to result in a risk to the rights and freedoms of data subjects; where it is not occasional; or where it includes special category data. So, er… )
+
+Finding yet another violation, the APD says the IAB failed to carry out “a comprehensive data protection impact assessment (DPIA) with regard to the processing of personal data within the TCF” — pointing out the glaringly obvious threats to the rights and freedoms of individuals posed by behavioral advertising which a comprehensive DPIA (i.e. if one had actually been carried out) would have robustly assessed.
+
+This chunk of the decision sounds quite dry but it’s perhaps possible to detect the tiniest hint of sarcasm as it writes…
+
+“The Litigation Chamber finds that the TCF was developed, among other things, for the RTB system, in which the online behaviour of users is observed, collected, recorded or influenced in a systematic and automated manner, including for advertising purposes. It is also not disputed that within the OpenRTB, data are widely collected from third parties (DMPs) in order to analyse or predict the economic situation, health, personal preferences or interests, reliability or behaviour, location or movements of natural persons.”
+
+The IAB has also been spanked for not appointing a DPO (data protection officer).
+
+“Because of the large-scale, regular and systematic observation of identifiable users that the TCF implies, and in view of the defendant’s role, more specifically of its capacity as Managing Organisation, the Litigation Chamber rules that IAB Europe should have appointed a [DPO],” the regulator notes on that.
+
+The IAB Europe has had many months — or really well over a year (at least) — to prepare its response to the ADP’s finding so ofc it’s chock full of spin.
+
+The ad industry body is trying really hard to find a silver lining to both it and its TCF being taken to the cleaners. And even includes some magical-thinking — by suggesting the TCF might somehow now form the basis of a “GDPR transnational Code of Conduct”. Dream big guys!
+
+Not that the IAB commits to accepting the regulator’s findings.
+
+There is no acknowledgement of wrongdoing. Nor indeed any apology to all those Internet users who’s data has been illegally processed and used for goodness knows what…
+
+Despite that it’s not clear whether the IAB will try to appeal. (If it’s going to do so it has to file within 30 days.)
+
+Here’s the IAB’s statement:
+
+“IAB Europe acknowledges the decision announced today by the Belgian Data Protection Authority (APD) in connection with its investigation of IAB Europe. We note that the decision contains no prohibition of the Transparency & Consent Framework (TCF), as had been requested by the complainants, and that the APD considers the purported infringements by IAB Europe that it has identified to be susceptible of being remedied in six months.
+
+We reject the finding that we are a data controller in the context of the TCF.  We believe this finding is wrong in law and will have major unintended negative consequences going well beyond the digital advertising industry.  We are considering all options with respect to a legal challenge.
+
+Notwithstanding our grave reservations on the substance of the decision, we look forward to working with the APD on an action plan to be executed within the prescribed six months that will ensure the TCF’s continuing utility in the market.  As previously communicated, it has always been our intention to submit the Framework for approval as a GDPR transnational Code of Conduct. Today’s decision would appear to clear the way for work on that to begin.”
+
+It is correct to say that the APD has called for compliance rather than literally banned use of the TCF. So the IAB has bought itself a few more months’ grace for a law-breaking system.
+
+However claiming that the existence of a deadline for compliance is affirmation that the regulator believes compliance will be a doddle looks fanciful. You could simply counter that by asking why then, if that’s the case, has the regulator stipulated a regime of daily fines for ongoing violations thereafter? If it truly believes TCF ‘2.0’ will arrive on time and perfectly formed why set out fines for continued non-compliance once its deadline elapses?
+
+One thing is amply clear: Much rests on what choices the adtech industry makes next.
+
+For its own sake — as much as for anyone else’s — we should all hope they finally learn how to make good ones.
+
+The European consumer organization BEUC has also responded to the Belgian DPA’s decision today — dubbing the fine levied on the IAB “paltry” in light of the systemic scale and seriousness of the violations.
+
+In a statement, its deputy DG, Ursula Pachl, added: “Surveillance advertising goes against the very core principles and rights that the GDPR is there to protect. This must be a wakeup call for the whole adtech industry, which illegally trades in personal data, to comply with the law, while data protection authorities must take decisive action against entities that continue to breach the General Data Protection Regulation.”
+
+UK privacy watchdog warns adtech the end of tracking is nigh
+
+
+
+IAB Europe says it’s expecting to be found in breach of GDPR
+
+
+
+IAB Europe’s ad tracking consent framework found to fail GDPR standard
+
+
+

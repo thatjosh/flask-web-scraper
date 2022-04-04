@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Page Scrape
+{% endblock %}
+
+{% block main %}
+
+    <div class="pagescrape-div">
+        <img src="static/Asset1.png" class="asset1-image" alt="Search Illustration">
+        <h3 class="pagescrape-title">Enter an Address</h3>
+        <div class="container-fluid input-bar">
+            <form action="/pagescraped" method="post" class="d-flex">
+                <input class="form-control me-2" id="htmladdress" name="htmladdress" type="text" placeholder="HTML Address">
+                <button class="btn btn-primary" type="submit">Scrape</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

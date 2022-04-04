@@ -1,0 +1,255 @@
+/* Index.html */
+
+.index-header {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #FFAF48;
+    margin-top: 140px;
+    margin-left: 85px;
+}
+
+.index-header-2 {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 85px;
+}
+
+.index-para {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.index-button {
+    font-size: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #f07430;
+    border-color: #f07430;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.index-nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.index-nav-link-right {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 65px;
+}
+
+.index-nav-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    letter-spacing: -1px;
+}
+
+.index-navbar {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.index-nav-image {
+    margin-left: 85px;
+}
+
+.nav-right {
+    margin-right: 35px;
+}
+
+
+.index {
+    background-image: url('Homepage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.footer {
+    position: sticky;
+    top: 100%;
+    width: 100%;
+}
+
+.input-bar {
+    width: 35%;
+    margin: auto;
+}
+
+.layout-body {
+    min-height: 100vh;
+}
+
+.pagescrape-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.asset1-image {
+    padding-top: 10px;
+    height: 33%;
+    width: 33%;
+    margin: auto;
+}
+
+/* pagascraped.html */
+.box {
+    background-color: #F3F5F9;
+    width: 70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.pagescraped-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: left;
+    color: #00000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pagescraped-html-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #00000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pagescraped-html-addreess {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #00000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pagescraped-button{
+    align: left;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+
+.pagescrape-button-container {
+    padding-left: 9%;
+}
+
+.pagescrape-form {
+    /* display: inline; */
+    display: none
+}
+
+.pagescrape-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagescrape-div{
+    margin-top: 30px;
+}
+
+.apology-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.history-table{
+    width: 70%;
+    margin: auto;
+}
+
+.invisible-input{
+    display: none;
+}
+
+th{
+    font-weight: normal;
+}
+
+.login-image{
+    margin-bottom: 10px;
+}
+
+.login-top-div{
+    margin-bottom: 20px;
+}
+
+.login-div{
+    position: fixed;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-here{
+    text-decoration: none;
+}
+
+.login-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Size for brand */
+nav .navbar-brand {
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+
